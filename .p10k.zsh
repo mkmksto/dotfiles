@@ -1,1 +1,0 @@
-/home/ping/.p10k.zsh
