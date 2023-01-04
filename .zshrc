@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshc="code ~/.zshrc"
 alias zshv="vi ~/.zshrc"
-alias dotc="code ~/.dotfiles"
+alias dotc="code ~/dotfiles"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -130,3 +130,8 @@ export NVM_DIR="$HOME/.nvm"
 # vim mode
 # bindkey -v
 # export VI_MODE_SET_CURSOR=true
+
+# pnpm
+export PNPM_HOME="/home/lemongrass/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
