@@ -1,6 +1,12 @@
 # set ctrl space to autocomplete
 bindkey '^ ' autosuggest-accept
 
+# set TAB to expand aliases
+autoload -Uz compinit; compinit;
+bindkey "^Xa" _expand_alias
+zstyle ':completion:*' completer _expand_alias _complete _ignored
+zstyle ':completion:*' regular true
+
 
 #
 # 
@@ -118,6 +124,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshc="code ~/.zshrc"
 alias zshv="vi ~/.zshrc"
 alias dotc="code ~/dotfiles"
+alias gcom='git commit -m "'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
