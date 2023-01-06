@@ -2,6 +2,7 @@
 bindkey '^ ' autosuggest-accept
 
 # set TAB to expand aliases
+# https://superuser.com/questions/1514569/how-to-expand-aliases-inline-in-zsh
 autoload -Uz compinit; compinit;
 bindkey "^Xa" _expand_alias
 zstyle ':completion:*' completer _expand_alias _complete _ignored
