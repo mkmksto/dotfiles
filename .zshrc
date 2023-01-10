@@ -122,10 +122,13 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias vim="nvim"
 alias zshc="code ~/.zshrc"
-alias zshv="vi ~/.zshrc"
+alias zshv="nvim ~/.zshrc"
 alias dotc="code ~/dotfiles"
+alias dotv="nvim ~/dotfiles"
 alias gcom='git commit -m "'
+alias vicon='nvim ~/.config/nvim/init.vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
