@@ -128,7 +128,7 @@ alias zshv="nvim ~/.zshrc"
 alias dotc="code ~/dotfiles"
 alias dotv="nvim ~/dotfiles"
 alias gcom='git commit -m "'
-alias vicon='nvim ~/.config/nvim/init.vim'
+alias nvcon='nvim ~/.config/nvim/'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
