@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm ~/.bashrc
 rm ~/.dircolors
 rm ~/.gitconfig
