@@ -11,3 +11,4 @@
 - clone your gh repo into the particular folder (`git clone <repo> dotfiles`)
 - run `sh install.sh`
 - run `sh install-oh-my-plugins.sh`
+- change the gitconfig name and email
