@@ -151,4 +151,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+
+# neovim
+export PATH="/home/lemongrass/Downloads/custom_installs:$PATH"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
